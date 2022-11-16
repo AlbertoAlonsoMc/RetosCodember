@@ -21,7 +21,7 @@ public class Main {
                         contador++;
                         System.out.println(oneLineUser);
                     }
-                    oneLineUser = new StringBuilder();
+                    oneLineUser.setLength(0);
                 }
             }
         } catch (IOException e) {
